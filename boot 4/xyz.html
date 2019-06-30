@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap</title>
+    </head>
+    <body>
+    <marquee behavior="scroll" direction="left"
+           onmousedown="this.stop();"
+           onmouseup="this.start();"> This is our marquee tag</marquee>
+        <marquee direction ="right">The direction of text will be from bottom to top.</marquee>
+        
+        
+        <marquee behavior="scroll" direction="left" id="marquee1"><p>Press Button</p></marquee>
+  <input type="button" value="Stop Marquee" onClick="document.getElementById('marquee1').stop();"/>
+  <input type="button" value="Start Marquee" onClick="document.getElementById('marquee1').start();"/>
+    
+    
+    
+    
+    </body>
+    </html>
